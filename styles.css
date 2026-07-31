@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+main{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 192, 253);
+    height: 100%;
+    width: 100%;
+}
+.principal{
+    flex-direction: column;
+    background-color: rgb(127, 255, 223);
+    border-radius: 40%;
+    height: 50%;
+    width: 87%;
+}
+.hero{
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+}
+p{
+    font-size: 16px;
+    color: white;
+}
+.alternativas{
+    flex-direction: row;
+}
+.aceitou{
+    display: none;
+}
+.sim{
+    padding: 5px 15px;
+    background-color: blueviolet;
+}
+.nao{
+    padding: 5px 15px;
+    background-color: blueviolet;
+}
